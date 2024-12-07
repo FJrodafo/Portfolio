@@ -68,15 +68,6 @@ const projectsData = [
     title: 'free-port',
     repository: 'https://github.com/FJrodafo/free-port',
   },
-  {
-    id: 6,
-    category: 'package',
-    imageLight: NPMLight,
-    imageDark: NPMDark,
-    link: 'https://www.npmjs.com/package/@fjrodafo/colors',
-    title: 'colors',
-    repository: 'https://github.com/FJrodafo/colors',
-  },
 ];
 
 export { projectsNav, projectsData };
