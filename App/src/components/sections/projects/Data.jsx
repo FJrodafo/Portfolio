@@ -6,6 +6,8 @@ import DauntlessLeaderboardsLight from '../../../assets/images/contribution/daun
 import DauntlessLeaderboardsDark from '../../../assets/images/contribution/dauntlessleaderboards/dark.png';
 import NPMLight from '../../../assets/images/package/npm/light.png';
 import NPMDark from '../../../assets/images/package/npm/dark.png';
+import DockerLight from '../../../assets/images/package/docker/light.png';
+import DockerDark from '../../../assets/images/package/docker/dark.png';
 
 const projectsNav = [
   {
@@ -67,6 +69,15 @@ const projectsData = [
     link: 'https://www.npmjs.com/package/@fjrodafo/free-port',
     title: 'free-port',
     repository: 'https://github.com/FJrodafo/free-port',
+  },
+  {
+    id: 6,
+    category: 'package',
+    imageLight: DockerLight,
+    imageDark: DockerDark,
+    link: 'https://hub.docker.com/r/fjrodafo/to-do',
+    title: 'to-do',
+    repository: 'https://github.com/FJrodafo/to-do',
   },
 ];
 

@@ -2,10 +2,11 @@
 
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
-3. [Run it!](#run-it)
-4. [Run with Docker](#run-with-docker)
-5. [Build Docker image on your own](#build-docker-image-on-your-own)
-6. [Available Scripts](#available-scripts)
+3. [Download the code](#download-the-code)
+4. [Run it!](#run-it)
+5. [Run with Docker](#run-with-docker)
+6. [Build Docker image on your own](#build-docker-image-on-your-own)
+7. [Available Scripts](#available-scripts)
 
 ## Introduction
 
@@ -20,6 +21,8 @@ My professional minimalist website, made with [React](https://react.dev/), power
 
 ```
 App/
+├── build/
+│   └── ...
 ├── node_modules/
 │   └── ...
 ├── public/
@@ -63,7 +66,7 @@ App/
 ```
 </details>
 
-## Run it!
+## Download the code
 
 Open your directory where you save your repositories and clone it with the following command:
 
@@ -81,6 +84,8 @@ git clone https://gitlab.com/FJrodafo/Website.git
 # Bitbucket
 git clone https://bitbucket.org/fjrodafo/website.git
 ```
+
+## Run it!
 
 This project needs a `.env` into the `App` directory with some data related to your EmailJS service (Make sure you have an EmailJS account created, you can create one in the [EmailJS](https://www.emailjs.com/) official website):
 
@@ -123,7 +128,7 @@ Run the container:
 docker compose up -d
 ```
 
-Stop the Container:
+Stop the container:
 
 ```shell
 docker compose down
