@@ -3,10 +3,11 @@
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
 3. [Download the code](#download-the-code)
-4. [Run it!](#run-it)
-5. [Run with Docker](#run-with-docker)
-6. [Build Docker image on your own](#build-docker-image-on-your-own)
-7. [Available Scripts](#available-scripts)
+4. [Set up the project](#set-up-the-project)
+5. [Install dependencies](#install-dependencies)
+6. [Final steps](#final-steps)
+7. [Using Docker](#using-docker)
+8. [Available Scripts](#available-scripts)
 
 ## Introduction
 
@@ -85,7 +86,7 @@ git clone https://gitlab.com/FJrodafo/Website.git
 git clone https://bitbucket.org/fjrodafo/website.git
 ```
 
-## Run it!
+## Set up the project
 
 This project needs a `.env` into the `App` directory with some data related to your EmailJS service (Make sure you have an EmailJS account created, you can create one in the [EmailJS](https://www.emailjs.com/) official website):
 
@@ -95,11 +96,15 @@ REACT_APP_EMAILJS_TEMPLATE_ID=your_template_code
 REACT_APP_EMAILJS_USER_ID=your_user_code
 ```
 
+## Install dependencies
+
 As well, this project must be initialized and the necessary dependencies installed with the following command (Make sure you are in the `App` directory):
 
 ```shell
 npm install
 ```
+
+## Final steps
 
 If you have the `.env` file into the `App` directory correctly configurated and Node v18 or higher installed on your machine, then you are good to go!
 
@@ -112,7 +117,11 @@ npm start
 # Press 'Ctrl + C' to exit
 ```
 
-## Run with Docker
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Using Docker
+
+### Run with Docker Compose
 
 Make sure to create and configurate the `.env` file correctly into the `App` directory before running Docker commands...
 
@@ -134,7 +143,7 @@ Stop the container:
 docker compose down
 ```
 
-## Build Docker image on your own
+### Build Docker image on your own
 
 If you don't have Node v18 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `.env` file correctly into the `App` directory before building the docker image).
 
@@ -149,6 +158,12 @@ After the build completes, you can run your container with the following command
 ```shell
 docker run -dp 127.0.0.1:3000:3000 website
 ```
+
+> [!IMPORTANT]
+> 
+> Please note that when using Docker, port 3000 on localhost will be occupied by the Discord application for its proper functioning.
+> 
+> If you already have applications that use port 3000, you will need to adjust certain parameters before creating the Docker container so that it can run correctly on a free port.
 
 ## Available Scripts
 
