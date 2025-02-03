@@ -48,7 +48,7 @@ const projectsData = [
     category: 'collaboration',
     imageLight: DauntlessBuilderLight,
     imageDark: DauntlessBuilderDark,
-    link: 'https://www.dauntless-builder.com/',
+    link: 'https://dauntless-builder.com/',
     title: 'dauntless-builder-legacy',
     repository: 'https://github.com/atomicptr/dauntless-builder-legacy',
   },

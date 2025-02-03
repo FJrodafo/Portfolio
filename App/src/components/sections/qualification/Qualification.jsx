@@ -27,7 +27,7 @@ const Qualification = () => {
               <div>
                 <h3 className='qualification__title'>{t('qualification.title.iespc')}</h3>
                 <span className='qualification__subtitle'>IES Puerto de la Cruz - Telesforo Bravo</span>
-                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> 2022 - {t('qualification.present')}</div>
+                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> 2022 - 2026</div>
               </div>
               <div>
                 <span className='qualification__rounder'></span>
@@ -43,7 +43,7 @@ const Qualification = () => {
               <div>
                 <h3 className='qualification__title'>{t('qualification.title.csmc')}</h3>
                 <span className='qualification__subtitle'>CSMC - Conservatorio Superior de Música de Canarias</span>
-                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> 2020 - {t('qualification.present')}</div>
+                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> 2020 - 2025</div>
               </div>
             </div>
             <div className='qualification__data'>
@@ -67,7 +67,7 @@ const Qualification = () => {
               <div>
                 <h3 className='qualification__title'>...</h3>
                 <span className='qualification__subtitle'>...</span>
-                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> ...</div>
+                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> ... - {t('qualification.present')}</div>
               </div>
             </div>
             {/*

@@ -55,9 +55,9 @@ const Contact = () => {
             </div>
             <div className='contact__card'>
               <i className='bx bx-message-detail contact__card-icon' />
-              <h3 className='contact__card-title'>LinkedIn</h3>
-              <span className='contact__card-data'>@fjrodafo</span>
-              <a href='https://www.linkedin.com/in/fjrodafo' className='contact__button' target='_blank' rel='noreferrer'>
+              <h3 className='contact__card-title'>Telegram</h3>
+              <span className='contact__card-data'>@FJrodafo</span>
+              <a href='https://t.me/FJrodafo' className='contact__button' target='_blank' rel='noreferrer'>
                 {t('contact.container.card.button')}
                 <i className='bx bx-right-arrow-alt contact__button-icon' />
               </a>
