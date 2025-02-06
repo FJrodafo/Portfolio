@@ -7,7 +7,13 @@
 5. [Install dependencies](#install-dependencies)
 6. [Final steps](#final-steps)
 7. [Using Docker](#using-docker)
+    * [Run with Docker Compose](#run-with-docker-compose)
+    * [Build Docker image on your own](#build-docker-image-on-your-own)
 8. [Available Scripts](#available-scripts)
+    * [`npm start`](#npm-start)
+    * [`npm test`](#npm-test)
+    * [`npm run build`](#npm-run-build)
+    * [`npm run eject`](#npm-run-eject)
 
 ## Introduction
 
