@@ -13,6 +13,13 @@ const Frontend = () => {
             <i className='bx bx-badge-check' />
             <div>
               <h3 className='skills__name'>HTML</h3>
+              <span className='skills__level'>{t('skills.advanced')}</span>
+            </div>
+          </div>
+          <div className='skills__data'>
+            <i className='bx bx-badge-check' />
+            <div>
+              <h3 className='skills__name'>JavaScript</h3>
               <span className='skills__level'>{t('skills.intermediate')}</span>
             </div>
           </div>
@@ -23,20 +30,13 @@ const Frontend = () => {
               <span className='skills__level'>{t('skills.basic')}</span>
             </div>
           </div>
-          <div className='skills__data'>
-            <i className='bx bx-badge-check' />
-            <div>
-              <h3 className='skills__name'>JavaScript</h3>
-              <span className='skills__level'>{t('skills.intermediate')}</span>
-            </div>
-          </div>
         </div>
         <div className='skills__group'>
           <div className='skills__data'>
             <i className='bx bx-badge-check' />
             <div>
-              <h3 className='skills__name'>Git</h3>
-              <span className='skills__level'>{t('skills.advanced')}</span>
+              <h3 className='skills__name'>EWWidgets</h3>
+              <span className='skills__level'>{t('skills.intermediate')}</span>
             </div>
           </div>
           <div className='skills__data'>
