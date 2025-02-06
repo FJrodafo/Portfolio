@@ -13,7 +13,7 @@ const Frontend = () => {
             <i className='bx bx-badge-check' />
             <div>
               <h3 className='skills__name'>HTML</h3>
-              <span className='skills__level'>{t('skills.basic')}</span>
+              <span className='skills__level'>{t('skills.intermediate')}</span>
             </div>
           </div>
           <div className='skills__data'>
@@ -42,15 +42,15 @@ const Frontend = () => {
           <div className='skills__data'>
             <i className='bx bx-badge-check' />
             <div>
-              <h3 className='skills__name'>Tailwind</h3>
-              <span className='skills__level'>{t('skills.basic')}</span>
+              <h3 className='skills__name'>React</h3>
+              <span className='skills__level'>{t('skills.intermediate')}</span>
             </div>
           </div>
           <div className='skills__data'>
             <i className='bx bx-badge-check' />
             <div>
-              <h3 className='skills__name'>React</h3>
-              <span className='skills__level'>{t('skills.intermediate')}</span>
+              <h3 className='skills__name'>Next.js</h3>
+              <span className='skills__level'>{t('skills.basic')}</span>
             </div>
           </div>
         </div>
