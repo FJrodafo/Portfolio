@@ -118,8 +118,8 @@
     },
     "testimonials": {
         "section": {
-            "title": "Mis clientes dicen",
-            "subtitle": "Testimonios"
+            "title": "Testimonios",
+            "subtitle": "Mis clientes dicen"
         },
         "1": {
             "name": "Cliente 1",
