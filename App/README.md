@@ -17,9 +17,9 @@
 
 ## Introduction
 
-My professional minimalist website, made with [React](https://react.dev/), powered by [Vercel](https://vercel.com/)!
+My professional minimalist portfolio, made with [React](https://react.dev/), powered by [Vercel](https://vercel.com/)!
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/FJrodafo/Website/tree/main/App)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/FJrodafo/Portfolio/tree/main/App)
 
 ## Project Structure
 
@@ -79,17 +79,17 @@ Open your directory where you save your repositories and clone it with the follo
 
 ```shell
 # GitHub
-git clone https://github.com/FJrodafo/Website.git
+git clone https://github.com/FJrodafo/Portfolio.git
 ```
 
 ```shell
 # GitLab
-git clone https://gitlab.com/FJrodafo/Website.git
+git clone https://gitlab.com/FJrodafo/Portfolio.git
 ```
 
 ```shell
 # Bitbucket
-git clone https://bitbucket.org/fjrodafo/website.git
+git clone https://bitbucket.org/fjrodafo/portfolio.git
 ```
 
 ## Set up the project
@@ -156,13 +156,13 @@ If you don't have Node v18 or higher installed on your machine, you can build a 
 Open a terminal and run the following command (Make sure you are in the `App` directory):
 
 ```shell
-docker build -t website .
+docker build -t portfolio .
 ```
 
 After the build completes, you can run your container with the following command:
 
 ```shell
-docker run -dp 127.0.0.1:3000:3000 website
+docker run -dp 127.0.0.1:3000:3000 portfolio
 ```
 
 > [!IMPORTANT]
