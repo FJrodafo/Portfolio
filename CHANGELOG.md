@@ -1,4 +1,13 @@
 ```
+* Commit: 404fc82 - Update package-lock.json & package.json
+| Author: fjrodafo - Tue, 11 Feb 2025 21:25:40 +0000
+| 
+* Commit: c576dc1 - Update docker-compose.yaml
+| Author: fjrodafo - Tue, 11 Feb 2025 21:24:14 +0000
+| 
+* Commit: 0f86a12 - Update Portfolio
+| Author: fjrodafo - Sun, 9 Feb 2025 20:12:34 +0000
+| 
 * Commit: 072adf3 - Fix Skills
 | Author: fjrodafo - Sun, 9 Feb 2025 18:57:02 +0000
 | 

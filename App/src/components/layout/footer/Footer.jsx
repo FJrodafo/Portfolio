@@ -28,7 +28,9 @@ const Footer = () => {
           <a href='https://paypal.me/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-paypal' /></a>
         </div>
         <span className='footer__copy'>
-          Copyright &#169; Francisco José Rodríguez Afonso
+          Copyright &#169; 2025 Francisco José
+          <br />
+          Rodríguez Afonso - All Rights Reserved
           <br />
           Powered by <a href='https://vercel.com/' className='footer__link' target='_blank' rel='noreferrer'>&#x25B2; Vercel</a>
         </span>
