@@ -1,4 +1,7 @@
 ```
+* Commit: 565e174 - Update Copyright in Footer.jsx
+| Author: fjrodafo - Tue, 11 Feb 2025 21:26:41 +0000
+| 
 * Commit: 404fc82 - Update package-lock.json & package.json
 | Author: fjrodafo - Tue, 11 Feb 2025 21:25:40 +0000
 | 
