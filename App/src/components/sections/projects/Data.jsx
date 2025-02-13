@@ -66,9 +66,9 @@ const projectsData = [
     category: 'package',
     imageLight: NPMLight,
     imageDark: NPMDark,
-    link: 'https://www.npmjs.com/package/@fjrodafo/free-port',
-    title: 'free-port',
-    repository: 'https://github.com/FJrodafo/free-port',
+    link: 'https://www.npmjs.com/package/@fjrodafo/port-finder',
+    title: 'port-finder',
+    repository: 'https://github.com/FJrodafo/port-finder',
   },
   {
     id: 6,
