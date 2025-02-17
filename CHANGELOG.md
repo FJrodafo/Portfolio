@@ -1,4 +1,7 @@
 ```
+* Commit: 5abca3e - Update workflows runner to ubuntu-latest
+| Author: fjrodafo - Sun, 16 Feb 2025 18:43:39 +0000
+| 
 * Commit: 79329c9 - Update port-finder
 | Author: fjrodafo - Thu, 13 Feb 2025 02:58:52 +0000
 | 
