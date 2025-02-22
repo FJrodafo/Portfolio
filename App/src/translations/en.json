@@ -167,7 +167,7 @@
             "button": "Send Message",
             "success": "The email has been sent successfully!",
             "error": "The email could not be sent.",
-            "miss": "Missing required parameters for sending email"
+            "miss": "Missing required parameters for sending email."
         }
     },
     "footer": {

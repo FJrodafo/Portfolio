@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../assets/styles/testimonial.css';
+import '@/styles/testimonial.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../../assets/styles/qualification.css';
+import '@/styles/qualification.css';
 import { useTranslation } from '../../context/translation/Translation.jsx';
 
 const Qualification = () => {

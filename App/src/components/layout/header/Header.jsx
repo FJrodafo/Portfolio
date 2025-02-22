@@ -1,24 +1,33 @@
-import React, { useState } from 'react';
-import '../../../assets/styles/header.css';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import React, { useState, useEffect } from 'react';
+import '@/styles/header.css';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Header = () => {
   const { t } = useTranslation();
+  const [headerClass, setHeaderClass] = useState('');
 
-  // Change Background Header
-  window.addEventListener('scroll', function () {
-    const header = document.querySelector('.header');
-    // When the scroll is higher than 200 viewport height, add the scroll-header class to a tag with the header tag
-    if (this.scrollY >= 80) header.classList.add('scroll-header');
-    else header.classList.remove('scroll-header');
-  });
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector('.header');
+      if (window.scrollY >= 80) {
+        setHeaderClass('scroll-header');
+      } else {
+        setHeaderClass('');
+      }
+    };
 
-  // Toggle Menu
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState('#home');
 
   return (
-    <header className='header'>
+    <header className={`header ${headerClass}`}>
       <nav className='nav container'>
         <a href='/' className='nav__logo'>FJrodafo</a>
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>

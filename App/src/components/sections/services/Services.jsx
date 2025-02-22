@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../../assets/styles/services.css';
+import '@/styles/services.css';
 import { useTranslation } from '../../context/translation/Translation.jsx';
 
 const Services = () => {

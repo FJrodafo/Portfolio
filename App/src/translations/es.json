@@ -167,7 +167,7 @@
             "button": "Enviar mensaje",
             "success": "¡El correo electrónico ha sido enviado exitosamente!",
             "error": "No se pudo enviar el correo electrónico.",
-            "miss": "Faltan parámetros requeridos para enviar el correo electrónico"
+            "miss": "Faltan parámetros requeridos para enviar el correo electrónico."
         }
     },
     "footer": {

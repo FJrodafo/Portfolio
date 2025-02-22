@@ -1,26 +1,23 @@
-import Light from '../../../assets/images/customer/light.png';
-import Dark from '../../../assets/images/customer/dark.png';
-
 const customersData = [
   {
     id: 1,
-    imageLight: Light,
-    imageDark: Dark
+    imageLight: '/images/customer/light.png',
+    imageDark: '/images/customer/dark.png'
   },
   {
     id: 2,
-    imageLight: Light,
-    imageDark: Dark
+    imageLight: '/images/customer/light.png',
+    imageDark: '/images/customer/dark.png'
   },
   {
     id: 3,
-    imageLight: Light,
-    imageDark: Dark
+    imageLight: '/images/customer/light.png',
+    imageDark: '/images/customer/dark.png'
   },
   {
     id: 4,
-    imageLight: Light,
-    imageDark: Dark
+    imageLight: '/images/customer/light.png',
+    imageDark: '/images/customer/dark.png'
   },
 ];
 

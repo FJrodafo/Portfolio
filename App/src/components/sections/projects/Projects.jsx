@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../../assets/styles/projects.css';
+import '@/styles/projects.css';
 import { projectsNav, projectsData } from './Data.jsx';
 import { useTheme } from '../../context/theme/Theme.jsx';
 import { useTranslation } from '../../context/translation/Translation.jsx';
@@ -14,7 +14,7 @@ const Work = () => {
 
   useEffect(() => {
     // Get projects based on item
-    if (item.name === 'all' || item.name === 'todo') {
+    if (item.name === 'all' || item.name === 'todo' || item.name === '全て') {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {

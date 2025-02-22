@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import '../../../assets/styles/contact.css';
+import '@/styles/contact.css';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from '../../context/translation/Translation.jsx';
 

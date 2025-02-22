@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../../assets/styles/footer.css';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import '@/styles/footer.css';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -30,9 +30,10 @@ const Footer = () => {
         <span className='footer__copy'>
           Copyright &#169; 2025 Francisco José
           <br />
-          Rodríguez Afonso - All Rights Reserved
+          Rodríguez Afonso - All Rights Reserved.
           <br />
-          Powered by <a href='https://vercel.com/' className='footer__link' target='_blank' rel='noreferrer'>&#x25B2; Vercel</a>
+          <br />
+          Powered by <a href='https://vercel.com/' className='footer__link' target='_blank' rel='noreferrer'>&#x25B2;Vercel</a>
         </span>
       </div>
     </footer>

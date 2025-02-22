@@ -1,8 +1,7 @@
 import React from 'react';
-import '../../../assets/styles/about.css';
-import Info from './Info.jsx';
-import AboutImg from '../../../assets/images/profile.jpg';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import '@/styles/about.css';
+import Info from '@/components/sections/about/Info.jsx';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const About = () => {
   const { t } = useTranslation();
@@ -12,7 +11,7 @@ const About = () => {
       <h2 className='section__title'>{t('about.section.title')}</h2>
       <span className='section__subtitle'>{t('about.section.subtitle')}</span>
       <div className='about__container container grid'>
-        <img src={AboutImg} alt='' className='about__img' />
+        <img src='/images/profile.jpg' alt='' className='about__img' />
         <div className='about__data'>
           <Info />
           <p className='about__description'>{t('about.description')}</p>

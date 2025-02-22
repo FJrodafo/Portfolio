@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../assets/styles/skills.css';
+import '@/styles/skills.css';
 import Frontend from './Frontend.jsx';
 import Backend from './Backend.jsx';
 import { useTranslation } from '../../context/translation/Translation.jsx';

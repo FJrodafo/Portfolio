@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../assets/styles/home.css';
+import '@/styles/home.css';
 import Utilities from './Utilities.jsx';
 import Data from './Data.jsx';
 import ScrollDown from './ScrollDown.jsx';
