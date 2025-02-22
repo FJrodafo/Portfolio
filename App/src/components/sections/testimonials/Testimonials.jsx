@@ -5,8 +5,8 @@ import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { customersData } from './Data.jsx';
-import { useTheme } from '../../context/theme/Theme.jsx';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import { useTheme } from '@/components/context/theme/Theme.jsx';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Testimonials = () => {
   const { theme } = useTheme();

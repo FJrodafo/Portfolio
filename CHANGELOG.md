@@ -1,4 +1,7 @@
 ```
+* Commit: 45593fc - Migrate Next.js
+| Author: fjrodafo - Sat, 22 Feb 2025 21:48:49 +0000
+| 
 * Commit: af67da0 - Update .yaml
 | Author: fjrodafo - Mon, 17 Feb 2025 20:50:17 +0000
 | 

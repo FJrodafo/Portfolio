@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '@/styles/services.css';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Services = () => {
   const { t } = useTranslation();

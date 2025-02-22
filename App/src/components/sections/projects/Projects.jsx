@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '@/styles/projects.css';
 import { projectsNav, projectsData } from './Data.jsx';
-import { useTheme } from '../../context/theme/Theme.jsx';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import { useTheme } from '@/components/context/theme/Theme.jsx';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Work = () => {
   const { theme } = useTheme();

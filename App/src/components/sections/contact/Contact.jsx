@@ -1,16 +1,16 @@
 import React, { useRef } from 'react';
 import '@/styles/contact.css';
 import emailjs from '@emailjs/browser';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Contact = () => {
   const { t } = useTranslation();
 
   const form = useRef();
 
-  const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-  const template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-  const user_id = process.env.REACT_APP_EMAILJS_USER_ID;
+  const service_id = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+  const template_id = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+  const user_id = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
 
   const sendEmail = (e) => {
     e.preventDefault();

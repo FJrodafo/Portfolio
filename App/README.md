@@ -99,9 +99,9 @@ git clone https://bitbucket.org/fjrodafo/portfolio.git
 This project needs a `.env` into the `App` directory with some data related to your EmailJS service (Make sure you have an EmailJS account created, you can create one in the [EmailJS](https://www.emailjs.com/) official website):
 
 ```conf
-REACT_APP_EMAILJS_SERVICE_ID=your_service_code
-REACT_APP_EMAILJS_TEMPLATE_ID=your_template_code
-REACT_APP_EMAILJS_USER_ID=your_user_code
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_code
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_code
+NEXT_PUBLIC_EMAILJS_USER_ID=your_user_code
 ```
 
 ## Install dependencies

@@ -1,6 +1,6 @@
 import React from 'react';
-import { useTheme } from '../../context/theme/Theme.jsx';
-import { useTranslation } from '../../context/translation/Translation.jsx';
+import { useTheme } from '@/components/context/theme/Theme.jsx';
+import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Utilities = () => {
   const { theme, toggleTheme } = useTheme();
