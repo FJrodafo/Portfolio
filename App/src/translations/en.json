@@ -1,0 +1,178 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "home": {
+        "dark": "Dark Mode",
+        "light": "Light Theme",
+        "translate": "Translate",
+        "subtitle": "Web Developer & Musician",
+        "description": "Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.",
+        "button": "Say Hello",
+        "scroll": "Scroll Down"
+    },
+    "about": {
+        "section": {
+            "title": "About Me",
+            "subtitle": "My introduction"
+        },
+        "description": "As a Full-Stack web application developer, I design and develop both the frontend and backend, providing comprehensive and satisfying solutions for my clients.",
+        "button": "Curriculum Vitae",
+        "info": {
+            "experience": {
+                "title": "Experience",
+                "subtitle": "+4 Years"
+            },
+            "completed": {
+                "title": "Completed",
+                "subtitle": "+6 Projects"
+            },
+            "support": {
+                "title": "Support",
+                "subtitle": "Online 24/7"
+            }
+        }
+    },
+    "skills": {
+        "section": {
+            "title": "Skills",
+            "subtitle": "My technical level"
+        },
+        "frontend": "Front-End Development",
+        "backend": "Back-End Development",
+        "basic": "Basic",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+    },
+    "services": {
+        "section": {
+            "title": "Services",
+            "subtitle": "What I offer"
+        },
+        "frontend": {
+            "title": "Front-End Development",
+            "title1": "Front-End",
+            "title2": "Development",
+            "description": "Wishing to offer quality work to clients and companies.",
+            "task1": "Building comprehensive web applications from concept to deployment.",
+            "task2": "Crafting intuitive user interfaces for an optimal experience.",
+            "task3": "Creating engaging interactions to optimize user satisfaction.",
+            "task4": "Seamlessly incorporating your company's brand identity into the application.",
+            "task5": "Designing visual representations to illustrate application functionality."
+        },
+        "backend": {
+            "title": "Back-End Development",
+            "title1": "Back-End",
+            "title2": "Development",
+            "description": "Wishing to offer quality work to clients and companies.",
+            "task1": "Crafting the engine powering your web application.",
+            "task2": "Building robust backend systems to handle data processing and business logic.",
+            "task3": "Fine-tuning of backend systems for speed and efficiency.",
+            "task4": "Optimizing systems for scalability and performance to ensure smooth operation under heavy loads.",
+            "task5": "Implementing mechanisms to manage and resolve issues effectively, ensuring system reliability."
+        },
+        "database": {
+            "title": "Database Development",
+            "title1": "Database",
+            "title2": "Development",
+            "description": "Wishing to offer quality work to clients and companies.",
+            "task1": "Designing data models that accurately represent the application's requirements and relationships.",
+            "task2": "Creating structured and efficient database schemas to organize data effectively.",
+            "task3": "Implementing indexing techniques to improve query performance and data retrieval.",
+            "task4": "Analyzing and optimizing database queries to enhance overall system performance.",
+            "task5": "Establishing robust backup and recovery procedures to ensure data integrity and continuity of operations."
+        },
+        "viewmore": "View More"
+    },
+    "qualification": {
+        "section": {
+            "title": "Qualification",
+            "subtitle": "My personal journey"
+        },
+        "education": "Education",
+        "title": {
+            "iespc": "Higher Degree Training Cycle, Web Application Development",
+            "csmc": "Musical performance, Trumpet",
+            "cpmt": "Musical performance, Trumpet"
+        },
+        "experience": "Experience",
+        "present": "Present"
+    },
+    "projects": {
+        "section": {
+            "title": "Projects",
+            "subtitle": "Most recent work"
+        },
+        "data": {
+            "all": "All",
+            "app": "App",
+            "collaboration": "Contribution",
+            "package": "Package"
+        },
+        "repository": "Repository"
+    },
+    "testimonials": {
+        "section": {
+            "title": "Testimonials",
+            "subtitle": "My clients say"
+        },
+        "1": {
+            "name": "Customer 1",
+            "quote": "\"A really good job, all aspects of the project were followed step by step and with good results.\""
+        },
+        "2": {
+            "name": "Customer 2",
+            "quote": "\"A really good job, all aspects of the project were followed step by step and with good results.\""
+        },
+        "3": {
+            "name": "Customer 3",
+            "quote": "\"A really good job, all aspects of the project were followed step by step and with good results.\""
+        },
+        "4": {
+            "name": "Customer 4",
+            "quote": "\"A really good job, all aspects of the project were followed step by step and with good results.\""
+        }
+    },
+    "contact": {
+        "section": {
+            "title": "Get in touch",
+            "subtitle": "Contact me"
+        },
+        "container": {
+            "title": "Talk to me",
+            "card": {
+                "title": "Email",
+                "button": "Write me"
+            }
+        },
+        "form": {
+            "title": "Write me your project",
+            "name": {
+                "tag": "Name",
+                "placeholder": "Insert your name"
+            },
+            "mail": {
+                "tag": "Mail",
+                "placeholder": "Insert your mail"
+            },
+            "project": {
+                "tag": "Project",
+                "placeholder": "Write your project"
+            },
+            "button": "Send Message",
+            "success": "The email has been sent successfully!",
+            "error": "The email could not be sent.",
+            "miss": "Missing required parameters for sending email."
+        }
+    },
+    "footer": {
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects"
+    }
+}

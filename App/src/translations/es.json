@@ -1,0 +1,178 @@
+{
+    "header": {
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "skills": "Habilidades",
+        "services": "Servicios",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "home": {
+        "dark": "Modo Oscuro",
+        "light": "Tema Claro",
+        "translate": "Traducir",
+        "subtitle": "Desarrollador Web & Músico",
+        "description": "Desarrollador de aplicaciones web, músico, trompetista y pianista de las Islas Canarias.",
+        "button": "Di Hola",
+        "scroll": "Continuar"
+    },
+    "about": {
+        "section": {
+            "title": "Sobre mi",
+            "subtitle": "Mi introducción"
+        },
+        "description": "Como desarrollador de aplicaciones web Full-Stack, diseño y desarrollo tanto el frontend como el backend, brindando soluciones integrales y satisfactorias para mis clientes.",
+        "button": "Curriculum Vitae",
+        "info": {
+            "experience": {
+                "title": "Experiencia",
+                "subtitle": "+4 Años"
+            },
+            "completed": {
+                "title": "Completado",
+                "subtitle": "+6 Proyectos"
+            },
+            "support": {
+                "title": "Apoyo",
+                "subtitle": "En línea 24/7"
+            }
+        }
+    },
+    "skills": {
+        "section": {
+            "title": "Habilidades",
+            "subtitle": "Mi nivel técnico"
+        },
+        "frontend": "Desarrollo Front-End",
+        "backend": "Desarrollo Back-End",
+        "basic": "Básico",
+        "intermediate": "Intermedio",
+        "advanced": "Avanzado"
+    },
+    "services": {
+        "section": {
+            "title": "Servicios",
+            "subtitle": "Lo que ofrezco"
+        },
+        "frontend": {
+            "title": "Desarrollo Front-End",
+            "title1": "Desarrollo",
+            "title2": "Front-End",
+            "description": "Deseando ofrecer un trabajo de calidad a clientes y empresas.",
+            "task1": "Desarrollo completo de aplicaciones web, desde el concepto inicial hasta la implementación final.",
+            "task2": "Diseño de interfaces de usuario intuitivas y visualmente atractivas para una experiencia óptima.",
+            "task3": "Mejora de la interactividad para garantizar una experiencia de usuario satisfactoria.",
+            "task4": "Incorporación coherente de la identidad visual de su empresa en la aplicación.",
+            "task5": "Creación de representaciones visuales que ilustren la funcionalidad de la aplicación de manera clara y efectiva."
+        },
+        "backend": {
+            "title": "Desarrollo Back-End",
+            "title1": "Desarrollo",
+            "title2": "Back-End",
+            "description": "Deseando ofrecer un trabajo de calidad a clientes y empresas.",
+            "task1": "Desarrollo del motor que impulsa su aplicación web.",
+            "task2": "Construcción de sistemas backend robustos para manejar el procesamiento de datos y la lógica empresarial.",
+            "task3": "Ajuste de los sistemas backend para mayor velocidad y eficiencia.",
+            "task4": "Optimización del rendimiento de los sistemas para garantizar un funcionamiento fluido bajo cargas elevadas.",
+            "task5": "Implementación de mecanismos para gestionar y resolver problemas de manera efectiva, asegurando la fiabilidad del sistema."
+        },
+        "database": {
+            "title": "Desarrollo de Bases de Datos",
+            "title1": "Desarrollo de",
+            "title2": "Bases de Datos",
+            "description": "Deseando ofrecer un trabajo de calidad a clientes y empresas.",
+            "task1": "Diseño de modelos de datos que representen con precisión los requisitos y relaciones de su aplicación.",
+            "task2": "Creación de esquemas de bases de datos estructurados y eficientes para organizar los datos de manera efectiva.",
+            "task3": "Implementación de técnicas de indexación para mejorar el rendimiento de las consultas y la recuperación de datos.",
+            "task4": "Análisis y optimización de consultas de bases de datos para mejorar el rendimiento general del sistema.",
+            "task5": "Establecimiento de procedimientos sólidos de copia de seguridad y recuperación para garantizar la integridad de los datos y la continuidad de las operaciones."
+        },
+        "viewmore": "Ver Más"
+    },
+    "qualification": {
+        "section": {
+            "title": "Calificación",
+            "subtitle": "Mi viaje personal"
+        },
+        "education": "Estudios",
+        "title": {
+            "iespc": "Ciclo Formativo de Grado Superior, Desarrollo de aplicaciones web",
+            "csmc": "Interpretación musical, Trompeta",
+            "cpmt": "Interpretación musical, Trompeta"
+        },
+        "experience": "Experiencia",
+        "present": "Presente"
+    },
+    "projects": {
+        "section": {
+            "title": "Proyectos",
+            "subtitle": "Trabajo más reciente"
+        },
+        "data": {
+            "all": "Todo",
+            "app": "App",
+            "collaboration": "Contribución",
+            "package": "Paquete"
+        },
+        "repository": "Repositorio"
+    },
+    "testimonials": {
+        "section": {
+            "title": "Testimonios",
+            "subtitle": "Mis clientes dicen"
+        },
+        "1": {
+            "name": "Cliente 1",
+            "quote": "\"Un trabajo realmente bueno, se siguieron todos los aspectos del proyecto paso a paso y con buenos resultados.\""
+        },
+        "2": {
+            "name": "Cliente 2",
+            "quote": "\"Un trabajo realmente bueno, se siguieron todos los aspectos del proyecto paso a paso y con buenos resultados.\""
+        },
+        "3": {
+            "name": "Cliente 3",
+            "quote": "\"Un trabajo realmente bueno, se siguieron todos los aspectos del proyecto paso a paso y con buenos resultados.\""
+        },
+        "4": {
+            "name": "Cliente 4",
+            "quote": "\"Un trabajo realmente bueno, se siguieron todos los aspectos del proyecto paso a paso y con buenos resultados.\""
+        }
+    },
+    "contact": {
+        "section": {
+            "title": "Ponerse en contacto",
+            "subtitle": "Contáctame"
+        },
+        "container": {
+            "title": "Háblame",
+            "card": {
+                "title": "Correo electrónico",
+                "button": "Escríbeme"
+            }
+        },
+        "form": {
+            "title": "Escríbeme tu proyecto",
+            "name": {
+                "tag": "Nombre",
+                "placeholder": "Inserta tu nombre"
+            },
+            "mail": {
+                "tag": "Correo",
+                "placeholder": "Inserta tu correo"
+            },
+            "project": {
+                "tag": "Proyecto",
+                "placeholder": "Escribe tu proyecto"
+            },
+            "button": "Enviar mensaje",
+            "success": "¡El correo electrónico ha sido enviado exitosamente!",
+            "error": "No se pudo enviar el correo electrónico.",
+            "miss": "Faltan parámetros requeridos para enviar el correo electrónico."
+        }
+    },
+    "footer": {
+        "about": "Sobre mi",
+        "services": "Servicios",
+        "projects": "Proyectos"
+    }
+}

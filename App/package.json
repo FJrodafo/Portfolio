@@ -1,0 +1,71 @@
+{
+  "name": "@fjrodafo/portfolio",
+  "version": "1.0.0",
+  "description": "My professional minimalist portfolio!",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FJrodafo/Portfolio.git"
+  },
+  "keywords": [
+    "fjrodafo",
+    "website",
+    "portfolio",
+    "cv",
+    "curriculum",
+    "vitae",
+    "linkedin",
+    "github",
+    "docker",
+    "dockerhub",
+    "node",
+    "nodejs",
+    "npm",
+    "npmjs",
+    "git",
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "react",
+    "next",
+    "nextjs",
+    "vercel",
+    "home",
+    "about",
+    "skills",
+    "services",
+    "qualification",
+    "projects",
+    "testimonials",
+    "contact",
+    "translation",
+    "english",
+    "spanish",
+    "japanese",
+    "light",
+    "theme",
+    "dark",
+    "mode"
+  ],
+  "author": "FJrodafo - Francisco José Rodríguez Afonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FJrodafo/Portfolio/issues"
+  },
+  "homepage": "https://github.com/FJrodafo/Portfolio#readme",
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.0.7",
+    "next": "15.1.7"
+  }
+}
