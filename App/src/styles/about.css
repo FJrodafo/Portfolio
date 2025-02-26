@@ -28,7 +28,7 @@
 .about__icon {
   font-size: 1.5rem;
   color: var(--title-color);
-  margin-bottom: var(--mb-0-5);
+  /* margin-bottom: var(--mb-0-5); */
 }
 
 .about__title {
