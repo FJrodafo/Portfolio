@@ -18,10 +18,6 @@ const Footer = () => {
           <a href='https://www.linkedin.com/in/fjrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-linkedin' /></a>
           <a href='https://github.com/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-github' /></a>
           <a href='https://hub.docker.com/u/fjrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-docker' /></a>
-        </div>
-        <br />
-        <div className='footer__social'>
-          <a href='https://discord.com/users/1259949570964590705' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-discord-alt' /></a>
           <a href='https://paypal.me/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-paypal' /></a>
         </div>
         <span className='footer__copy'>
