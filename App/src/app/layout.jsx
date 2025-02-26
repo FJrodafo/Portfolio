@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'FJrodafo',
   author: 'Francisco José Rodríguez Afonso',
-  description: 'Fullstack web application developer, musician, trumpeter and pianist from the Canary Islands.',
+  description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
   keywords: 'fjrodafo, website, portfolio, cv, curriculum, vitae, linkedin, github, docker, dockerhub, node, nodejs, npm, npmjs, git, html, css, javascript, typescript, react, next, nextjs, vercel, about, contact, home, projects, qualification, services, skills, testimonials, translation, english, spanish, japanese, light, theme, dark, mode',
 };
 
