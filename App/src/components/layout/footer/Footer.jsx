@@ -18,7 +18,6 @@ const Footer = () => {
           <a href='https://www.linkedin.com/in/fjrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-linkedin' /></a>
           <a href='https://github.com/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-github' /></a>
           <a href='https://hub.docker.com/u/fjrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-docker' /></a>
-          <a href='https://stackoverflow.com/users/26261359/fjrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-stack-overflow' /></a>
         </div>
         <br />
         <div className='footer__social'>
