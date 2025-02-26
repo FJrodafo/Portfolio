@@ -21,7 +21,6 @@ const Footer = () => {
         </div>
         <br />
         <div className='footer__social'>
-          <a href='https://t.me/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-telegram' /></a>
           <a href='https://discord.com/users/1259949570964590705' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-discord-alt' /></a>
           <a href='https://paypal.me/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-paypal' /></a>
         </div>

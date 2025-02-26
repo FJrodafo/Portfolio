@@ -46,7 +46,7 @@ const Contact = () => {
           <div className='contact__info'>
             <div className='contact__card'>
               <i className='bx bx-mail-send contact__card-icon' />
-              <h3 className='contact__card-title'>{t('contact.container.card.title')}</h3>
+              <h3 className='contact__card-title'>{t('contact.container.card.email')}</h3>
               <span className='contact__card-data'>fjrodafo@gmail.com</span>
               <a href='mailto:fjrodafo@gmail.com' className='contact__button'>
                 {t('contact.container.card.button')}
@@ -55,9 +55,9 @@ const Contact = () => {
             </div>
             <div className='contact__card'>
               <i className='bx bx-message-detail contact__card-icon' />
-              <h3 className='contact__card-title'>Telegram</h3>
-              <span className='contact__card-data'>@FJrodafo</span>
-              <a href='https://t.me/FJrodafo' className='contact__button' target='_blank' rel='noreferrer'>
+              <h3 className='contact__card-title'>{t('contact.container.card.telephone')}</h3>
+              <span className='contact__card-data'>+34 635 43 10 24</span>
+              <a href='tel:+34635431024' className='contact__button' target='_blank' rel='noreferrer'>
                 {t('contact.container.card.button')}
                 <i className='bx bx-right-arrow-alt contact__button-icon' />
               </a>

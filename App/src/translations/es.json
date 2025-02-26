@@ -146,7 +146,8 @@
         "container": {
             "title": "Háblame",
             "card": {
-                "title": "Correo electrónico",
+                "email": "Correo electrónico",
+                "telephone": "Teléfono",
                 "button": "Escríbeme"
             }
         },

@@ -146,7 +146,8 @@
         "container": {
             "title": "私に話して",
             "card": {
-                "title": "メール",
+                "email": "メール",
+                "telephone": "電話",
                 "button": "私に書いてください"
             }
         },

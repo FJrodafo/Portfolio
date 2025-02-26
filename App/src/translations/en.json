@@ -146,7 +146,8 @@
         "container": {
             "title": "Talk to me",
             "card": {
-                "title": "Email",
+                "email": "Email",
+                "telephone": "Telephone",
                 "button": "Write me"
             }
         },
