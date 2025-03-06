@@ -23,7 +23,7 @@ const Footer = () => {
         <span className='footer__copy'>
           Copyright &#169; 2025 Francisco José
           <br />
-          Rodríguez Afonso - All Rights Reserved.
+          Rodríguez Afonso - MIT License.
           <br />
           <br />
           Powered by <a href='https://vercel.com/' className='footer__link' target='_blank' rel='noreferrer'>&#x25B2;Vercel</a>
