@@ -42,7 +42,7 @@ App/
 │   ├── images/
 │   │   ├── .../
 │   │   │   └── *.png
-│   │   └── profile.jpg
+│   │   └── *.jpg
 │   └── favicon.ico
 ├── src/
 │   ├── assets/
