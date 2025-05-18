@@ -94,13 +94,21 @@
             "title": "Calificación",
             "subtitle": "Mi viaje personal"
         },
-        "education": "Estudios",
-        "title": {
-            "iespc": "Ciclo Formativo de Grado Superior, Desarrollo de aplicaciones web",
-            "csmc": "Interpretación musical, Trompeta",
-            "cpmt": "Interpretación musical, Trompeta"
+        "education": {
+            "header": "Estudios",
+            "title": {
+                "iespc": "Ciclo Formativo de Grado Superior, Desarrollo de aplicaciones web",
+                "csmc": "Interpretación musical, Trompeta",
+                "cpmt": "Interpretación musical, Trompeta"
+            }
         },
-        "experience": "Experiencia",
+        "experience": {
+            "header": "Experiencia",
+            "title": {
+                "oft": "Trompetista",
+                "ofjtmj": "Trompetista"
+            }
+        },
         "present": "Presente"
     },
     "projects": {

@@ -94,13 +94,21 @@
             "title": "資格",
             "subtitle": "私の個人的な旅"
         },
-        "education": "教育",
-        "title": {
-            "iespc": "高等教育トレーニングサイクル、Webアプリケーション開発",
-            "csmc": "音楽解釈、トランペット",
-            "cpmt": "音楽解釈、トランペット"
+        "education": {
+            "header": "教育",
+            "title": {
+                "iespc": "高等教育トレーニングサイクル、Webアプリケーション開発",
+                "csmc": "音楽解釈、トランペット",
+                "cpmt": "音楽解釈、トランペット"
+            }
         },
-        "experience": "経験",
+        "experience": {
+            "header": "経験",
+            "title": {
+                "oft": "トランペッター",
+                "ofjtmj": "トランペッター"
+            }
+        },
         "present": "現在"
     },
     "projects": {

@@ -94,13 +94,21 @@
             "title": "Qualification",
             "subtitle": "My personal journey"
         },
-        "education": "Education",
-        "title": {
-            "iespc": "Higher Degree Training Cycle, Web Application Development",
-            "csmc": "Musical performance, Trumpet",
-            "cpmt": "Musical performance, Trumpet"
+        "education": {
+            "header": "Education",
+            "title": {
+                "iespc": "Higher Degree Training Cycle, Web Application Development",
+                "csmc": "Musical performance, Trumpet",
+                "cpmt": "Musical performance, Trumpet"
+            }
         },
-        "experience": "Experience",
+        "experience": {
+            "header": "Experience",
+            "title": {
+                "oft": "Trumpeter",
+                "ofjtmj": "Trumpeter"
+            }
+        },
         "present": "Present"
     },
     "projects": {

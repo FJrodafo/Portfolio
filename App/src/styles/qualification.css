@@ -60,6 +60,11 @@
   margin-bottom: var(--mb-1);
 }
 
+.qualification__link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .qualification__calender {
   font-size: var(--small-font-size);
 }
