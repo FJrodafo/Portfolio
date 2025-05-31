@@ -82,7 +82,7 @@ const Qualification = () => {
               <div>
                 <h3 className='qualification__title'>{t('qualification.experience.title.ofjtmj')}</h3>
                 <a href='https://www.facebook.com/OrquestaFilarmonicaJuvenildeTenerifeMiguelJaubert/' className='qualification__link' target='_blank' rel='noreferrer'>
-                  <span className='qualification__subtitle'>OFTMJ - Orquesta Filarmónica Juvenil de Tenerife "Miguel Jaubert"</span>
+                  <span className='qualification__subtitle'>OFJT-MJ - Orquesta Filarmónica Juvenil de Tenerife "Miguel Jaubert"</span>
                 </a>
                 <div className='qualification__calender'><i className='uil uil-calendar-alt' /> Nov 2017 - Feb 2019</div>
               </div>
