@@ -172,7 +172,7 @@
   padding: 0;
   box-sizing: border-box;
   scrollbar-width: none;
-  /* transition: 0.4s; */
+  transition: 0.4s;
 }
 
 html {
