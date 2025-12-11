@@ -173,6 +173,7 @@
   box-sizing: border-box;
   scrollbar-width: none;
   transition: 0.4s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
