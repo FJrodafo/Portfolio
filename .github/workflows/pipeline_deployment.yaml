@@ -5,6 +5,10 @@ on: [push, pull_request]
 jobs:
   deployment:
     runs-on: ubuntu-latest
+
+    env:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
