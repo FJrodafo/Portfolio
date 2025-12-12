@@ -38,6 +38,8 @@ App/
 │   ├── fonts/
 │   │   └── *.woff2
 │   ├── icons/
+│   │   ├── .../
+│   │   │   └── *.svg
 │   │   └── *.svg
 │   ├── images/
 │   │   ├── .../
@@ -45,7 +47,12 @@ App/
 │   │   └── *.jpg
 │   └── favicon.ico
 ├── src/
-│   ├── assets/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── send/
+│   │   │       └── route.js
+│   │   ├── layout.jsx
+│   │   └── page.jsx
 │   ├── components/
 │   │   ├── context/
 │   │   │   └── .../
@@ -86,12 +93,10 @@ git clone https://github.com/FJrodafo/Portfolio.git
 
 ## Set up the project
 
-This project needs a `.env` into the `App` directory with some data related to your EmailJS service (Make sure you have an EmailJS account created, you can create one in the [EmailJS](https://www.emailjs.com/) official website):
+This project needs a `.env` into the `App` directory with some data related to your email service (Make sure you have an Resend account created, you can create one in the [Resend](https://resend.com/) official website):
 
 ```conf
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_code
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_code
-NEXT_PUBLIC_EMAILJS_USER_ID=your_user_code
+RESEND_API_KEY=your_resend_api_key
 ```
 
 ## Install dependencies

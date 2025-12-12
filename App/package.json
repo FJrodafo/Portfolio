@@ -62,10 +62,10 @@
   },
   "homepage": "https://github.com/FJrodafo/Portfolio#readme",
   "dependencies": {
-    "@emailjs/browser": "^4.3.3",
+    "next": "^15.5.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "swiper": "^11.0.7",
-    "next": "^15.5.7"
+    "resend": "^6.6.0",
+    "swiper": "^11.0.7"
   }
 }

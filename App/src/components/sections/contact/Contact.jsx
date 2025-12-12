@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import '@/styles/contact.css';
-import emailjs from '@emailjs/browser';
 import { useTranslation } from '@/components/context/translation/Translation.jsx';
 
 const Contact = () => {
@@ -8,31 +7,33 @@ const Contact = () => {
 
   const form = useRef();
 
-  const service_id = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-  const template_id = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-  const user_id = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
-
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
-    if (service_id && template_id && form.current && user_id) {
-      emailjs
-        .sendForm(
-          service_id,
-          template_id,
-          form.current,
-          user_id
-        )
-        .then(() => {
-          alert(t('contact.form.success'));
-          e.target.reset();
-        })
-        .catch(() => {
-          alert(t('contact.form.error'));
-          console.error(t('contact.form.miss'));
-        });
-    } else {
+
+    const formData = {
+      name: form.current.name.value,
+      email: form.current.email.value,
+      project: form.current.project.value,
+    };
+
+    try {
+      const res = await fetch('/api/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await res.json();
+
+      if (result.success) {
+        alert(t('contact.form.success'));
+        e.target.reset();
+      } else {
+        alert(t('contact.form.error'));
+      }
+    } catch (error) {
+      console.error('Error enviando el formulario:', error);
       alert(t('contact.form.error'));
-      console.error(t('contact.form.miss'));
     }
   };
 
