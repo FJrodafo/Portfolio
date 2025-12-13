@@ -20,6 +20,12 @@ const Footer = () => {
           <a href='https://hub.docker.com/u/fjrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-docker' /></a>
           <a href='https://paypal.me/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-paypal' /></a>
         </div>
+        <br />
+        <div className='footer__social'>
+          <a href='https://www.youtube.com/@FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-youtube' /></a>
+          <a href='mailto:fjrodafo@gmail.com' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-gmail' /></a>
+          <a href='https://discord.com/users/1259949570964590705' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-discord-alt' /></a>
+        </div>
         <span className='footer__copy'>
           Copyright &#169; 2025 Francisco José
           <br />
