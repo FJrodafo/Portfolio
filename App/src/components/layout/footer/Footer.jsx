@@ -27,9 +27,9 @@ const Footer = () => {
           <a href='https://discord.com/users/1259949570964590705' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-discord-alt' /></a>
         </div>
         <span className='footer__copy'>
-          Copyright &#169; 2025 Francisco José
+          Creative Commons Zero v1.0 Universal
           <br />
-          Rodríguez Afonso - MIT License
+          Francisco José Rodríguez Afonso
           <br />
           <br />
           Powered by <a href='https://vercel.com/' className='footer__link' target='_blank' rel='noreferrer'>&#x25B2;Vercel</a>
