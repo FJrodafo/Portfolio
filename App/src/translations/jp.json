@@ -1,11 +1,11 @@
 {
     "header": {
-        "home": "始める",
-        "about": "について",
-        "skills": "能力",
+        "home": "ホーム",
+        "about": "プロフィール",
+        "skills": "スキル",
         "services": "サービス",
         "projects": "プロジェクト",
-        "contact": "接触"
+        "contact": "連絡先"
     },
     "home": {
         "dark": "ダークモード",
