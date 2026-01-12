@@ -57,7 +57,7 @@ const projectsData = [
     imageDark: '/images/package/npm/dark.png',
     link: 'https://www.npmjs.com/package/@fjrodafo/port-finder',
     title: 'port-finder',
-    repository: 'https://github.com/FJrodafo/port-finder',
+    repository: 'https://github.com/FJrodafo/port-finder/pkgs/npm/port-finder',
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ const projectsData = [
     imageDark: '/images/package/rubygems/dark.png',
     link: 'https://rubygems.org/gems/fjrodafo-slugify',
     title: 'Slugify',
-    repository: 'https://github.com/FJrodafo/Slugify',
+    repository: 'https://github.com/FJrodafo/Slugify/pkgs/rubygems/fjrodafo-slugify',
   },
 ];
 
