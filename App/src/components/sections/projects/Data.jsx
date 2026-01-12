@@ -62,11 +62,11 @@ const projectsData = [
   {
     id: 6,
     category: 'package',
-    imageLight: '/images/package/docker/light.png',
-    imageDark: '/images/package/docker/dark.png',
-    link: 'https://hub.docker.com/r/fjrodafo/to-do',
-    title: 'to-do',
-    repository: 'https://github.com/FJrodafo/to-do',
+    imageLight: '/images/package/rubygems/light.png',
+    imageDark: '/images/package/rubygems/dark.png',
+    link: 'https://rubygems.org/gems/fjrodafo-slugify',
+    title: 'Slugify',
+    repository: 'https://github.com/FJrodafo/Slugify',
   },
 ];
 
