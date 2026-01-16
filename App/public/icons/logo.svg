@@ -1,11 +1,1 @@
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="76"
-    height="65"
-    viewBox="0 0 76 65"
->
-    <path
-        fill="#0000000"
-        d="M37.5274 0L75.0548 65H0L37.5274 0Z"
-    />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="65" viewBox="0 0 76 65"><path fill="#0000000" d="m37.527 0 37.528 65H0z"/></svg>
