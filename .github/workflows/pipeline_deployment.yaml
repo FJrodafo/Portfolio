@@ -21,11 +21,9 @@ jobs:
           node-version: "18"
 
       - name: Install dependencies
-        run: |
-          cd ./App
-          npm install
+        working-directory: App
+        run: npm install
 
       - name: Build
-        run: |
-          cd ./App
-          npm run build
+        working-directory: App
+        run: npm run build
