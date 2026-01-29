@@ -62,7 +62,7 @@
   },
   "homepage": "https://github.com/FJrodafo/Portfolio#readme",
   "dependencies": {
-    "next": "^15.5.7",
+    "next": "^16.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "resend": "^6.6.0",

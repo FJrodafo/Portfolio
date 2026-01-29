@@ -56,8 +56,8 @@ const projectsData = [
     imageLight: '/images/package/npm/light.png',
     imageDark: '/images/package/npm/dark.png',
     link: 'https://www.npmjs.com/package/@fjrodafo/port-finder',
-    title: 'port-finder',
-    repository: 'https://github.com/FJrodafo/port-finder/pkgs/npm/port-finder',
+    title: 'PortFinder',
+    repository: 'https://github.com/FJrodafo/PortFinder/pkgs/npm/port-finder',
   },
   {
     id: 6,
