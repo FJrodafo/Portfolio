@@ -24,8 +24,7 @@ const Footer = () => {
         <div className='footer__social'>
           <a href='https://paypal.me/FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-paypal' /></a>
           <a href='https://www.youtube.com/@FJrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-youtube' /></a>
-          <a href='mailto:fjrodafo@gmail.com' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-gmail' /></a>
-          <a href='https://discord.com/users/1259949570964590705' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-discord-alt' /></a>
+          <a href='https://gravatar.com/fjrodafo' className='footer__social-link' target='_blank' rel='noreferrer'><i className='bx bxl-wordpress' /></a>
         </div>
         <span className='footer__copy'>
           Creative Commons Zero v1.0 Universal
