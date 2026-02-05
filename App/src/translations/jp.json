@@ -1,19 +1,19 @@
 {
     "header": {
-        "home": "始める",
-        "about": "について",
-        "skills": "能力",
+        "home": "ホーム",
+        "about": "プロフィール",
+        "skills": "スキル",
         "services": "サービス",
         "projects": "プロジェクト",
-        "contact": "接触"
+        "contact": "連絡先"
     },
     "home": {
         "dark": "ダークモード",
         "light": "ライトテーマ",
-        "translate": "翻訳する",
-        "subtitle": "ウェブ開発者兼ミュージシャン",
-        "description": "カナリア諸島出身のフルスタック Web アプリケーション開発者、ミュージシャン、トランペット奏者、ピアニスト。",
-        "button": "こんにちは",
+        "translate": "言語切替",
+        "subtitle": "Web開発者・音楽家",
+        "description": "カナリア諸島出身のフルスタックWeb開発者、音楽家、トランペット奏者、ピアノ奏者。",
+        "button": "メッセージを送る",
         "scroll": "下にスクロール"
     },
     "about": {
