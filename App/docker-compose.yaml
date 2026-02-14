@@ -1,8 +1,8 @@
-version: "3.9"
-
 services:
   portfolio:
     build: .
+    image: portfolio
+    container_name: portfolio
     ports:
       - "3000:3000"
     env_file:
