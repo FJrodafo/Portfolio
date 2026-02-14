@@ -15,10 +15,17 @@ COPY package*.json ./
 RUN npm install
 
 # Copy local code to the container image.
+# NOTE: Do NOT include secrets inside the image. Use .dockerignore to exclude .env files and provide environment variables at runtime.
 COPY . .
 
 # Build the app
 RUN npm run build
+
+# Set the environment to production
+ENV NODE_ENV=production
+
+# Expose the port the application listens on
+EXPOSE 3000
 
 # Run the web service on container startup.
 CMD [ "npm", "start" ]

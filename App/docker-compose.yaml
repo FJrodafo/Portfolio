@@ -1,8 +1,22 @@
+version: "3.9"
+
 services:
   portfolio:
-    build: .
+    image: fjrodafo/portfolio:latest
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: portfolio
+
     ports:
-      - '3000:3000'
+      - "3000:3000"
+
+    env_file:
+      - .env
+
     environment:
-      - NODE_ENV=production
+      NODE_ENV: production
+
     restart: unless-stopped

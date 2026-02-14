@@ -13,7 +13,7 @@ My professional minimalist portfolio!
 7. [Final steps](#final-steps)
 8. [Using Docker](#using-docker)
     1. [Run with Docker Compose](#run-with-docker-compose)
-    2. [Build Docker image on your own](#build-docker-image-on-your-own)
+    2. [Build Docker image manually](#build-docker-image-manually)
 9. [Learn More](#learn-more)
 10. [Deploy on Vercel](#deploy-on-vercel)
 
@@ -72,7 +72,7 @@ App/
 │   └── translations/
 │       └── *.json
 ├── .dockerignore
-├── .env
+├── .env.example
 ├── .gitattributes
 ├── .gitignore
 ├── docker-compose.yaml
@@ -95,7 +95,7 @@ git clone https://github.com/FJrodafo/Portfolio.git
 
 ## Set up the project
 
-This project needs a `.env` into the `App` directory with some data related to your email service (Make sure you have an Resend account created, you can create one in the [Resend](https://resend.com/) official website):
+This project needs a `.env` file into the `App` directory based on `.env.example` with your environment variables related to your email service (Make sure you have an Resend account created, you can create one in the [Resend](https://resend.com/) official website):
 
 ```conf
 RESEND_API_KEY=your_resend_api_key
@@ -115,28 +115,30 @@ If you have Node v22.14 or higher installed on your machine, then you are good t
 
 To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v22.14 or higher or, as a last option, check out the [Docker](#using-docker) alternative.
 
-Finally, if you have Node installed, run the following command to run the development server (Make sure you are in the `App` directory):
+Finally, if you have Node installed, type the following command to run the development server (Make sure you are in the `App` directory):
 
 ```shell
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 # Press 'Ctrl + C' to exit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result (The page auto-updates as you edit the project files).
 
 ## Using Docker
 
-### Run with Docker Compose
+This project can be run using Docker without installing Node.js locally.
 
-Make sure to create and configurate the `.env` file correctly into the `App` directory before running Docker commands...
+> [!IMPORTANT]
+> 
+> Do not include a `.env` file in the Docker image. Environment variables, such as `RESEND_API_KEY`, must be provided at runtime.
+
+### Run with Docker Compose (Recommended)
+
+Make sure to create and configurate the `.env` file correctly into the `App` directory with your environment variables (This file is used only at runtime, is ignored by Git and Docker, and is not included in the image):
+
+```conf
+RESEND_API_KEY=your_resend_api_key
+```
 
 Build the container:
 
@@ -156,9 +158,17 @@ Stop the container:
 docker compose down
 ```
 
-### Build Docker image on your own
+Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result.
 
-If you don't have Node v22.14 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `.env` file correctly into the `App` directory before building the docker image).
+### Build Docker image manually
+
+If you prefer not to use Docker Compose, you can build and run the image manually.
+
+> [!IMPORTANT]
+> 
+> Do not include a `.env` file when building the image.
+
+If you don't have Node v22.14 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile).
 
 Open a terminal and run the following command (Make sure you are in the `App` directory):
 
@@ -169,14 +179,18 @@ docker build -t portfolio .
 After the build completes, you can run your container with the following command:
 
 ```shell
-docker run -dp 127.0.0.1:3000:3000 portfolio
+docker run -d \
+  -p 3000:3000 \
+  -e RESEND_API_KEY=your_resend_api_key \
+  -e NODE_ENV=production \
+  portfolio
 ```
+
+Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result.
 
 > [!IMPORTANT]
 > 
-> Please note that when using Docker, port 3000 on localhost will be occupied by the Discord application for its proper functioning.
-> 
-> If you already have applications that use port 3000, you will need to adjust certain parameters before creating the Docker container so that it can run correctly on a free port.
+> If you already have applications that use port 3000, you will need to change the host port before creating the Docker container so that it can run correctly on a free port.
 
 ## Learn More
 
