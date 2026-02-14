@@ -12,7 +12,7 @@ My professional minimalist portfolio!
 6. [Install dependencies](#install-dependencies)
 7. [Final steps](#final-steps)
 8. [Using Docker](#using-docker)
-    1. [Run with Docker Compose](#run-with-docker-compose)
+    1. [Run with Docker Compose (Recommended)](#run-with-docker-compose-recommended)
     2. [Build Docker image manually](#build-docker-image-manually)
 9. [Learn More](#learn-more)
 10. [Deploy on Vercel](#deploy-on-vercel)
@@ -101,6 +101,10 @@ This project needs a `.env` file into the `App` directory based on `.env.example
 RESEND_API_KEY=your_resend_api_key
 ```
 
+> [!IMPORTANT]
+> 
+> This same environment variable must be configured in the Vercel website if the application is to be deployed on that service.
+
 ## Install dependencies
 
 As well, this project must be initialized and the necessary dependencies installed with the following command (Make sure you are in the `App` directory):
@@ -128,7 +132,7 @@ Open [http://localhost:3000](http://localhost:3000) in your favorite browser to 
 
 This project can be run using Docker without installing Node.js locally.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > 
 > Do not include a `.env` file in the Docker image. Environment variables, such as `RESEND_API_KEY`, must be provided at runtime.
 
@@ -160,13 +164,13 @@ docker compose down
 
 Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result.
 
+> [!IMPORTANT]
+> 
+> If you already have applications that use port 3000, you will need to change the host port before creating the Docker container so that it can run correctly on a free port.
+
 ### Build Docker image manually
 
 If you prefer not to use Docker Compose, you can build and run the image manually.
-
-> [!IMPORTANT]
-> 
-> Do not include a `.env` file when building the image.
 
 If you don't have Node v22.14 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile).
 
@@ -179,11 +183,7 @@ docker build -t portfolio .
 After the build completes, you can run your container with the following command:
 
 ```shell
-docker run -d \
-  -p 3000:3000 \
-  -e RESEND_API_KEY=your_resend_api_key \
-  -e NODE_ENV=production \
-  portfolio
+docker run -dp 3000:3000 --env-file .env portfolio
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result.
