@@ -186,6 +186,12 @@ After the build completes, you can run your container with the following command
 docker run -dp 3000:3000 --env-file .env portfolio
 ```
 
+You can even specify the environment variable value directly with the following command:
+
+```shell
+docker run -dp 3000:3000 -e RESEND_API_KEY=your_resend_api_key portfolio
+```
+
 Open [http://localhost:3000](http://localhost:3000) in your favorite browser to see the result.
 
 > [!IMPORTANT]
