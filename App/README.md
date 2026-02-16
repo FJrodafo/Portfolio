@@ -132,6 +132,8 @@ Open [http://localhost:3000](http://localhost:3000) in your favorite browser to 
 
 This project can be run using Docker without installing Node.js locally.
 
+You can find a Docker image of this project ready to be pulled on [GitHub Packages](https://github.com/FJrodafo/Portfolio/pkgs/container/portfolio) or [Docker Hub](https://hub.docker.com/r/fjrodafo/portfolio) website!
+
 > [!CAUTION]
 > 
 > Do not include a `.env` file in the Docker image. Environment variables, such as `RESEND_API_KEY`, must be provided at runtime.
