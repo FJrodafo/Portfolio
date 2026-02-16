@@ -134,6 +134,18 @@ This project can be run using Docker without installing Node.js locally.
 
 You can find a Docker image of this project ready to be pulled on [GitHub Packages](https://github.com/FJrodafo/Portfolio/pkgs/container/portfolio) or [Docker Hub](https://hub.docker.com/r/fjrodafo/portfolio) website!
 
+Pull the image with the following commands:
+
+```shell
+# Docker Hub
+docker pull fjrodafo/portfolio:v1.0.0
+```
+
+```shell
+# GitHub Packages
+docker pull ghcr.io/fjrodafo/portfolio:v1.0.0
+```
+
 > [!CAUTION]
 > 
 > Do not include a `.env` file in the Docker image. Environment variables, such as `RESEND_API_KEY`, must be provided at runtime.
