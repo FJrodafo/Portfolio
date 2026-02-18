@@ -1,29 +1,28 @@
-name: Pipeline
-
+name: Pipeline deployment
 on: [push, pull_request]
-
 jobs:
   deployment:
     runs-on: ubuntu-slim
-
     env:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
       - name: Setup Node.js environment
         uses: actions/setup-node@v6
         with:
           node-version: "24"
-
       - name: Install dependencies
         working-directory: App
         run: npm install
-
       - name: Build
         working-directory: App
         run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: next-build
+          path: App/.next
+          include-hidden-files: true
