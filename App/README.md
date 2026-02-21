@@ -2,6 +2,12 @@
 
 My professional minimalist portfolio!
 
+![Docker Pulls](https://img.shields.io/docker/pulls/fjrodafo/portfolio)
+![Docker Stars](https://img.shields.io/docker/stars/fjrodafo/portfolio)
+![Docker Automated build](https://img.shields.io/docker/automated/fjrodafo/portfolio)
+![Docker Image Size](https://img.shields.io/docker/image-size/fjrodafo/portfolio)
+![Docker Image Version](https://img.shields.io/docker/v/fjrodafo/portfolio)
+
 ## Index
 
 1. [Introduction](#introduction)
