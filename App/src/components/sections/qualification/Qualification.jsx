@@ -29,7 +29,7 @@ const Qualification = () => {
                 <a href='https://www3.gobiernodecanarias.org/medusa/edublog/iespuertodelacruztelesforobravo/' className='qualification__link' target='_blank' rel='noreferrer'>
                   <span className='qualification__subtitle'>IES Puerto de la Cruz - Telesforo Bravo</span>
                 </a>
-                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> Oct 2022 - Jun 2026</div>
+                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> Oct 2022 - May 2026</div>
               </div>
               <div>
                 <span className='qualification__rounder'></span>
@@ -71,14 +71,31 @@ const Qualification = () => {
                 <span className='qualification__line'></span>
               </div>
               <div>
+                <h3 className='qualification__title'>{t('qualification.experience.title.metacc')}</h3>
+                <a href='https://metachannelcorp.com/' className='qualification__link' target='_blank' rel='noreferrer'>
+                  <span className='qualification__subtitle'>META Channel Corporation</span>
+                </a>
+                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> Feb 2026 - {t('qualification.present')}</div>
+              </div>
+            </div>
+            <div className='qualification__data'>
+              <div>
                 <h3 className='qualification__title'>{t('qualification.experience.title.oft')}</h3>
                 <a href='https://www.facebook.com/orquestafilarmonicadetenerife/' className='qualification__link' target='_blank' rel='noreferrer'>
                   <span className='qualification__subtitle'>OFT - Orquesta Filarmónica de Tenerife</span>
                 </a>
                 <div className='qualification__calender'><i className='uil uil-calendar-alt' /> May 2018 - {t('qualification.present')}</div>
               </div>
+              <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
             </div>
             <div className='qualification__data'>
+              <div></div>
+              <div>
+                <span className='qualification__rounder'></span>
+              </div>
               <div>
                 <h3 className='qualification__title'>{t('qualification.experience.title.ofjtmj')}</h3>
                 <a href='https://www.facebook.com/OrquestaFilarmonicaJuvenildeTenerifeMiguelJaubert/' className='qualification__link' target='_blank' rel='noreferrer'>
@@ -86,35 +103,7 @@ const Qualification = () => {
                 </a>
                 <div className='qualification__calender'><i className='uil uil-calendar-alt' /> Nov 2017 - Feb 2019</div>
               </div>
-              <div>
-                <span className='qualification__rounder'></span>
-                {/*<span className='qualification__line'></span>*/}
-              </div>
             </div>
-            {/*
-            <div className='qualification__data'>
-              <div></div>
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-              <div>
-                <h3 className='qualification__title'>Database Developer</h3>
-                <span className='qualification__subtitle'>...</span>
-                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> 2022 - 2024</div>
-              </div>
-            </div>
-            <div className='qualification__data'>
-              <div>
-                <h3 className='qualification__title'>Web Application Developer</h3>
-                <span className='qualification__subtitle'>...</span>
-                <div className='qualification__calender'><i className='uil uil-calendar-alt' /> 2020 - 2022</div>
-              </div>
-              <div>
-                <span className='qualification__rounder'></span>
-              </div>
-            </div>
-            */}
           </div>
         </div>
       </div>
