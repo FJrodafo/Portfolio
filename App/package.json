@@ -57,6 +57,10 @@
   ],
   "author": "FJrodafo - Francisco José Rodríguez Afonso",
   "license": "CC0-1.0",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/FJrodafo"
+  },
   "bugs": {
     "url": "https://github.com/FJrodafo/Portfolio/issues"
   },
