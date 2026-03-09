@@ -8,6 +8,9 @@
   border-radius: 0.4rem;
   z-index: var(--z-tooltip);
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .scrollup__icon {
@@ -29,7 +32,7 @@
 @media screen and (max-width: 992px) {
   .scrollup {
     right: 1.5rem;
-    padding: 0.25rem 0.4rem;
+    padding: 0.7rem 0.5rem;
   }
 
   .scrollup__icon {
