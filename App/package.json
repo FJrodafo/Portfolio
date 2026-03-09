@@ -1,6 +1,6 @@
 {
   "name": "@fjrodafo/portfolio",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "My professional minimalist portfolio!",
   "private": true,
   "scripts": {
@@ -69,7 +69,13 @@
     "next": "^16.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "resend": "^6.6.0",
-    "swiper": "^12.1.2"
-  }
+    "resend": "^6.6.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions",
+    "last 2 Safari versions",
+    "not dead"
+  ]
 }
