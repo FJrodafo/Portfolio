@@ -5,11 +5,6 @@ import '@/styles/app.css';
 import Header from '@/components/layout/header/Header.jsx';
 import Home from '@/components/sections/home/Home.jsx';
 import About from '@/components/sections/about/About.jsx';
-import Qualification from '@/components/sections/qualification/Qualification.jsx';
-import Skills from '@/components/sections/skills/Skills.jsx';
-import Services from '@/components/sections/services/Services.jsx';
-import Projects from '@/components/sections/projects/Projects.jsx';
-import Testimonials from '@/components/sections/testimonials/Testimonials.jsx';
 import Contact from '@/components/sections/contact/Contact.jsx';
 import Footer from '@/components/layout/footer/Footer.jsx';
 import ScrollUp from '@/components/layout/scrollup/ScrollUp.jsx';
@@ -31,11 +26,6 @@ export default function App() {
           <main className='main'>
             <Home />
             <About />
-            <Qualification />
-            <Skills />
-            <Services />
-            <Projects />
-            <Testimonials />
             <Contact />
           </main>
           <Footer />
