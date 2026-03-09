@@ -10,7 +10,15 @@ const Home = () => {
       <div className='home__container container grid'>
         <div className='home__content grid'>
           <Utilities />
-          <div className='home__img'></div>
+          <img
+            src="/images/home.avif"
+            alt="Fran Afonso"
+            width="300"
+            height="300"
+            className="home__img"
+            fetchPriority="high"
+            decoding="async"
+          />
           <Data />
         </div>
         <ScrollDown />
