@@ -12,5 +12,11 @@
 # VSCode
 /.vscode
 
+# Dependencies
+/node_modules
+
 # Releases
 /releases
+
+# Secrets
+.env
