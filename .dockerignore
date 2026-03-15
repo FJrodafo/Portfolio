@@ -32,13 +32,15 @@ yarn-error.log*
 
 # Secrets
 .env
+.env.example
 
 # Vercel
 /.vercel
 
-# Typescript
-*.tsbuildinfo
-next-env.d.ts
-
 # Releases
 /releases/v*
+
+# Git
+/.git
+.gitattributes
+.gitignore
