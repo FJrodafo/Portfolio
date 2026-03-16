@@ -1,0 +1,25 @@
+# Git
+/.git
+.gitattributes
+.gitignore
+
+# GitHub
+/.github
+
+# Next.js
+/.next
+
+# Vercel
+/.vercel
+
+# VSCode
+/.vscode
+
+# Dependencies
+/node_modules
+
+# Releases
+/releases
+
+# Secrets
+.env
