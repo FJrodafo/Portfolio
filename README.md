@@ -130,12 +130,12 @@ Pull the image with the following commands:
 
 ```shell
 # Docker Hub
-docker pull fjrodafo/portfolio:latest
+docker pull fjrodafo/portfolio:1.0.0
 ```
 
 ```shell
 # GitHub Packages
-docker pull ghcr.io/fjrodafo/portfolio:latest
+docker pull ghcr.io/fjrodafo/portfolio:1.0.0
 ```
 
 > [!CAUTION]
