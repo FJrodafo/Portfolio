@@ -37,4 +37,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - All files (Existing project).
 
 [unreleased]: https://github.com/FJrodafo/Portfolio/compare/1.0.0...HEAD
-[1.0.0]: https://github.com/FJrodafo/Portfolio/commits/1.0.0
+[1.0.0]: https://github.com/FJrodafo/Portfolio/releases/tag/1.0.0
