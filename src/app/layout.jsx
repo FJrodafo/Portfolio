@@ -1,24 +1,29 @@
 export const metadata = {
   metadataBase: new URL('https://fjrodafo-portfolio.vercel.app/'),
-  title: {
-    default: 'Francisco José Rodríguez Afonso',
-    template: '%s | FJrodafo',
-  },
   applicationName: "FJrodafo's Portfolio",
+  title: {
+    default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+    template: '%s | Portfolio',
+  },
+  description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
+  creator: 'Francisco José Rodríguez Afonso',
+  publisher: 'Francisco José Rodríguez Afonso',
   authors: [
     {
       name: 'Francisco José Rodríguez Afonso',
       url: 'https://fjrodafo-portfolio.vercel.app/',
     },
   ],
-  creator: 'Francisco José Rodríguez Afonso',
-  publisher: 'Francisco José Rodríguez Afonso',
-  description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
   keywords: [
     'fjrodafo',
     'website',
     'portfolio',
     'developer',
+    'musician',
+    'trumpeter',
+    'pianist',
+    'canary',
+    'islands',
     'vercel',
     'next',
     'nextjs',
@@ -36,27 +41,33 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Francisco José Rodríguez Afonso | FJrodafo',
-    description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
-    url: 'https://fjrodafo-portfolio.vercel.app/',
-    siteName: "FJrodafo's Portfolio",
     locale: 'en_US',
     type: 'website',
+    siteName: "FJrodafo's Portfolio",
+    url: 'https://fjrodafo-portfolio.vercel.app/',
+    title: {
+      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      template: '%s | Portfolio',
+    },
+    description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
     images: [
       {
-        url: 'https://avatars.githubusercontent.com/u/126250262?v=4',
-        width: 1200,
-        height: 1200,
+        url: 'https://avatars.githubusercontent.com/u/126250262',
+        width: 460,
+        height: 460,
         alt: "FJrodafo's Avatar",
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'Francisco José Rodríguez Afonso | FJrodafo',
-    description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
     creator: '@fjrodafo',
-    images: ['https://avatars.githubusercontent.com/u/126250262?v=4'],
+    title: {
+      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      template: '%s | Portfolio',
+    },
+    description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
+    images: ['https://avatars.githubusercontent.com/u/126250262'],
   },
   icons: {
     icon: '/favicon.ico',
@@ -72,9 +83,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body>
-        <div id='root'>{children}</div>
-      </body>
+      <body id='root'>{children}</body>
     </html>
   );
 };
