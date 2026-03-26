@@ -74,6 +74,7 @@ My professional minimalist portfolio made with [Next.js](https://nextjs.org), bo
 ├── package-lock.json
 └── package.json
 ```
+
 </details>
 
 ## Download the code
