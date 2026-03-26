@@ -29,49 +29,53 @@ My professional minimalist portfolio!
 My professional minimalist portfolio made with [Next.js](https://nextjs.org), bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), powered by [&#x25B2;Vercel](https://vercel.com/)!
 
 <details>
+
 <summary>Project structure</summary>
 
-    /
-    ├── public/
-    │   ├── fonts/
-    │   │   └── *.woff2
-    │   ├── icons/
-    │   │   ├── .../
-    │   │   │   └── *.svg
-    │   │   └── *.svg
-    │   ├── images/
-    │   │   ├── .../
-    │   │   │   └── *.png
-    │   │   └── *.jpg
-    │   └── favicon.ico
-    ├── src/
-    │   ├── app/
-    │   │   ├── api/
-    │   │   │   └── send/
-    │   │   │       └── route.js
-    │   │   ├── layout.jsx
-    │   │   └── page.jsx
-    │   ├── components/
-    │   │   ├── context/
-    │   │   │   └── .../
-    │   │   │       └── *.jsx
-    │   │   ├── layout/
-    │   │   │   └── .../
-    │   │   │       └── *.jsx
-    │   │   ├── sections/
-    │   │   │   └── .../
-    │   │   │       └── *.jsx
-    │   ├── styles/
-    │   │   └── *.css
-    │   └── translations/
-    │       └── *.json
-    ├── .env
-    ├── docker-compose.yaml
-    ├── Dockerfile
-    ├── jsconfig.json
-    ├── next.config.mjs
-    ├── package-lock.json
-    └── package.json
+```
+/
+├── public/
+│   ├── fonts/
+│   │   └── *.woff2
+│   ├── icons/
+│   │   ├── .../
+│   │   │   └── *.svg
+│   │   └── *.svg
+│   ├── images/
+│   │   ├── .../
+│   │   │   └── *.png
+│   │   └── *.jpg
+│   └── favicon.ico
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── send/
+│   │   │       └── route.js
+│   │   ├── layout.jsx
+│   │   └── page.jsx
+│   ├── components/
+│   │   ├── context/
+│   │   │   └── .../
+│   │   │       └── *.jsx
+│   │   ├── layout/
+│   │   │   └── .../
+│   │   │       └── *.jsx
+│   │   ├── sections/
+│   │   │   └── .../
+│   │   │       └── *.jsx
+│   ├── styles/
+│   │   └── *.css
+│   └── translations/
+│       └── *.json
+├── .env
+├── docker-compose.yaml
+├── Dockerfile
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+└── package.json
+```
+
 </details>
 
 ## Download the code
