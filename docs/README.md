@@ -103,7 +103,7 @@ cp .env.example .env
 As well, this project must be initialized and the necessary dependencies installed with the following command:
 
 ```shell
-npm install
+npm i
 ```
 
 ## Final steps
@@ -128,13 +128,13 @@ You can find a Docker image of this project ready to be pulled on [GitHub Packag
 Pull the latest image with the following commands:
 
 ```shell
-# Docker Hub
-docker pull fjrodafo/portfolio:1.0.0
+# GitHub Packages
+docker pull ghcr.io/fjrodafo/portfolio:1.0.0
 ```
 
 ```shell
-# GitHub Packages
-docker pull ghcr.io/fjrodafo/portfolio:1.0.0
+# Docker Hub
+docker pull fjrodafo/portfolio:1.0.0
 ```
 
 > [!CAUTION]
