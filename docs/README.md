@@ -1,19 +1,18 @@
-# Portfolio
+# Portfolio [![&#x25B2;Vercel](https://img.shields.io/badge/&#x25B2;Vercel-black?style=flat)](https://fjrodafo-portfolio.vercel.app/)
 
-My professional minimalist portfolio!
+[![GitHub Pages](https://img.shields.io/badge/%20-white?style=social&logo=githubpages&logoColor=black&logoSize=auto)](https://fjrodafo.github.io/Portfolio/)
+[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Portfolio?style=social&logo=github&logoColor=black&label=Stars&labelColor=white&color=white)](https://github.com/FJrodafo/Portfolio/stargazers)
 
-[![▲Vercel](https://img.shields.io/website?url=https://fjrodafo-portfolio.vercel.app/&style=flat&label=▲Vercel&labelColor=000000&color=000000)](https://fjrodafo-portfolio.vercel.app/)
-[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Portfolio?style=social&logo=github&logoColor=000000&label=Stars&labelColor=ffffff&color=ffffff)](https://github.com/FJrodafo/Portfolio/stargazers)
+[![PageSpeed Insights](https://img.shields.io/badge/PageSpeed_Insights-100-00cc66?style=flat&logo=pagespeedinsights&labelColor=white)](https://pagespeed.web.dev/analysis/https-fjrodafo-portfolio-vercel-app/2j32p67s81?form_factor=desktop)
 
-[![PageSpeed Insights](https://img.shields.io/badge/PageSpeed_Insights-100-00cc66?style=flat&logo=pagespeedinsights&labelColor=ffffff)](https://pagespeed.web.dev/analysis/https-fjrodafo-portfolio-vercel-app/2j32p67s81?form_factor=desktop)
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/fjrodafo/portfolio?style=flat&logo=docker&logoColor=ffffff&label=Pulls&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/portfolio)
-[![Image Size](https://img.shields.io/docker/image-size/fjrodafo/portfolio?style=flat&logo=docker&logoColor=ffffff&label=Size&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/portfolio)
+[![Docker Container](https://img.shields.io/badge/Portfolio-2560FF?style=flat&logo=docker&logoColor=white)](https://github.com/FJrodafo/Portfolio/pkgs/container/portfolio)
+[![Docker Pulls](https://img.shields.io/docker/pulls/fjrodafo/portfolio?style=flat&logo=docker&logoColor=white&label=Pulls&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/portfolio)
+[![Image Size](https://img.shields.io/docker/image-size/fjrodafo/portfolio?style=flat&logo=docker&logoColor=white&label=Size&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/portfolio)
 
 ## Index
 
 1. [Introduction](#introduction)
-2. [Download the code](#download-the-code)
+2. [Clone the repository](#clone-the-repository)
 3. [Set up the project](#set-up-the-project)
 4. [Install dependencies](#install-dependencies)
 5. [Final steps](#final-steps)
@@ -26,10 +25,9 @@ My professional minimalist portfolio!
 
 ## Introduction
 
-My professional minimalist portfolio made with [Next.js](https://nextjs.org), bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), powered by [&#x25B2;Vercel](https://vercel.com/)!
+My professional minimalist portfolio website made with [Next.js](https://nextjs.org), bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), powered by [&#x25B2;Vercel](https://vercel.com/)!
 
-<details>
-<summary>Project structure</summary>
+This project has been developed on a [Linux](https://github.com/torvalds/linux) system. To learn more about the system, visit the [Dotfiles](https://github.com/FJrodafo/Dotfiles) repository.
 
 ```
 /
@@ -37,13 +35,12 @@ My professional minimalist portfolio made with [Next.js](https://nextjs.org), bo
 │   ├── fonts/
 │   │   └── *.woff2
 │   ├── icons/
-│   │   ├── .../
+│   │   ├── */
 │   │   │   └── *.svg
 │   │   └── *.svg
 │   ├── images/
-│   │   ├── .../
-│   │   │   └── *.png
-│   │   └── *.jpg
+│   │   ├── about.avif
+│   │   └── home.avif
 │   └── favicon.ico
 ├── src/
 │   ├── app/
@@ -54,13 +51,13 @@ My professional minimalist portfolio made with [Next.js](https://nextjs.org), bo
 │   │   └── page.jsx
 │   ├── components/
 │   │   ├── context/
-│   │   │   └── .../
+│   │   │   └── */
 │   │   │       └── *.jsx
 │   │   ├── layout/
-│   │   │   └── .../
+│   │   │   └── */
 │   │   │       └── *.jsx
 │   │   ├── sections/
-│   │   │   └── .../
+│   │   │   └── */
 │   │   │       └── *.jsx
 │   ├── styles/
 │   │   └── *.css
@@ -74,23 +71,27 @@ My professional minimalist portfolio made with [Next.js](https://nextjs.org), bo
 ├── package-lock.json
 └── package.json
 ```
-</details>
 
-## Download the code
+## Clone the repository
 
-Open your directory where you save your repositories and clone it with the following command:
+Open a terminal in the directory where you store your repositories and clone it with the following command:
 
 ```shell
-# From GitHub
+# HTTPS
 git clone https://github.com/FJrodafo/Portfolio.git
+```
+
+```shell
+# SSH
+git clone git@github.com:FJrodafo/Portfolio.git
 ```
 
 ## Set up the project
 
 This project needs a `.env` file based on `.env.example` with your environment variables related to your email service (Make sure you have an Resend account created, you can create one in the [Resend](https://resend.com/) official website):
 
-```conf
-RESEND_API_KEY=your_resend_api_key
+```shell
+cp .env.example .env
 ```
 
 > [!IMPORTANT]
@@ -107,11 +108,11 @@ npm install
 
 ## Final steps
 
-If you have Node v22.14 or higher installed on your machine, then you are good to go!
+If you have Node v24.x or higher installed on your machine, then you are good to go!
 
-To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v22.14 or higher or, as a last option, check out the [Docker](#using-docker) alternative.
+To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v24.x or higher or, as a last option, check out the [Docker](#using-docker) alternative.
 
-Finally, if you have Node installed, type the following command to run the development server:
+Finally, if you have Node installed, run the development server with the following command:
 
 ```shell
 npm run dev
@@ -122,11 +123,9 @@ Open [http://localhost:3000](http://localhost:3000) in your favorite browser to 
 
 ## Using Docker
 
-This project can be run using Docker without installing Node.js locally.
+You can find a Docker image of this project ready to be pulled on [GitHub Packages](https://github.com/FJrodafo/Portfolio/pkgs/container/portfolio) or [Docker Hub](https://hub.docker.com/r/fjrodafo/portfolio) official website!
 
-You can find a Docker image of this project ready to be pulled on [GitHub Packages](https://github.com/FJrodafo/Portfolio/pkgs/container/portfolio) or [Docker Hub](https://hub.docker.com/r/fjrodafo/portfolio) website!
-
-Pull the image with the following commands:
+Pull the latest image with the following commands:
 
 ```shell
 # Docker Hub
@@ -144,11 +143,7 @@ docker pull ghcr.io/fjrodafo/portfolio:1.0.0
 
 ### Run with Docker Compose (Recommended)
 
-Make sure to create and configurate the `.env` file correctly with your environment variables (This file is used only at runtime, is ignored by Git and Docker, and is not included in the image):
-
-```conf
-RESEND_API_KEY=****
-```
+Make sure to create the `.env` file before continuing (This file is used only at runtime, is ignored by Git and Docker, and is not included in the image).
 
 Build the container:
 
@@ -178,7 +173,7 @@ Open [http://localhost:3000](http://localhost:3000) in your favorite browser to 
 
 If you prefer not to use Docker Compose, you can build and run the image manually.
 
-If you don't have Node v22.14 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](https://github.com/FJrodafo/Portfolio/blob/main/Dockerfile).
+If you don't have Node v24.x or higher installed on your machine, you can build a Docker image by running the [Dockerfile](https://github.com/FJrodafo/Portfolio/blob/main/Dockerfile).
 
 Open a terminal and run the following command:
 
