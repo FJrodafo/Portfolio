@@ -56,13 +56,15 @@ This project has been developed on a [Linux](https://github.com/torvalds/linux) 
 │   │   ├── layout/
 │   │   │   └── */
 │   │   │       └── *.jsx
-│   │   ├── sections/
-│   │   │   └── */
-│   │   │       └── *.jsx
+│   │   └── sections/
+│   │       └── */
+│   │           └── *.jsx
 │   ├── styles/
 │   │   └── *.css
 │   └── translations/
 │       └── *.json
+├── CONTRIBUTING
+├── LICENSE
 ├── .env
 ├── docker-compose.yaml
 ├── Dockerfile
