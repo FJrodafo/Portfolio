@@ -1,3 +1,7 @@
+# Add japanese translation
+
+[![Crowdin](https://img.shields.io/badge/Crowdin-263238?style=flat&logo=crowdin&logoColor=FFFFFF)](https://crowdin.com/project/fjrodafo-portfolio/ja)
+
 ## Index
 
 1. [Header](#header)
