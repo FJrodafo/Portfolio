@@ -46,8 +46,8 @@
         }
     },
     "footer": {
-        "home": "始める",
-        "about": "について",
-        "contact": "接触"
+        "home": "ホーム",
+        "about": "プロフィール",
+        "contact": "連絡先"
     }
 }
