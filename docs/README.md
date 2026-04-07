@@ -9,6 +9,8 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/fjrodafo/portfolio?style=flat&logo=docker&logoColor=white&label=Pulls&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/portfolio)
 [![Image Size](https://img.shields.io/docker/image-size/fjrodafo/portfolio?style=flat&logo=docker&logoColor=white&label=Size&labelColor=2560FF&color=2560FF)](https://hub.docker.com/r/fjrodafo/portfolio)
 
+[![Crowdin](https://img.shields.io/badge/Crowdin-263238?style=flat&logo=crowdin&logoColor=FFFFFF)](https://crowdin.com/project/fjrodafo-portfolio)
+
 ## Index
 
 1. [Introduction](#introduction)
