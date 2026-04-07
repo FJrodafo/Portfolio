@@ -3,6 +3,8 @@
 1. [Header](#header)
 2. [Home](#home)
 3. [About](#about)
+4. [Contact](#contact)
+5. [Footer](#footer)
 
 - [Checks](#checks)
 - [Issues](#issues)
@@ -126,6 +128,42 @@
     - 
 2. 
     - 
+</details>
+
+## Contact
+
+| English | Spanish | Japanese |
+| ------: | :------ | :------: |
+|         |         |          |
+
+<details>
+<summary> ( / ): </summary>
+
+1. 
+    - 
+2. 
+    - 
+</details>
+
+## Footer
+
+| English  | Spanish     | Japanese     |
+| -------: | :---------- | :----------: |
+| Home     | Inicio      | ホーム       |
+| About    | Sobre mi    | プロフィール |
+| Contact  | Contacto    | 連絡先       |
+
+<details>
+<summary>連絡先 (れんらくさき / Renrakusaki): The place to contact someone, contact information.</summary>
+
+1. 連 (れん / Ren): To connect, to link, to join...
+    - This kanji indicates the idea of ​​connection or union between people.
+    - It appears in words related to communication: 連絡 (れんらく / Renraku): Contact, communication...
+2. 絡 (らく / Raku): Entwine, to coil...
+    - It literally suggests a "link between people".
+    - It complements 連 to form 連絡 (れんらく / Renraku): Contact, communication...
+3. 先 (さき / Saki): Point, destination, place...
+    - Here you indicate the place or address to which the communication is sent.
 </details>
 
 ---
