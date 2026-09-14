@@ -1,25 +1,30 @@
 # Git
-/.git
-.gitattributes
-.gitignore
+/.git/
+/.gitattributes
+/.gitignore
 
 # GitHub
-/.github
+/.github/
 
 # Next.js
-/.next
+/.next/
 
 # Vercel
-/.vercel
+/.vercel/
 
 # VSCode
-/.vscode
+/.vscode/
+
+# Documents
+/docs/
 
 # Dependencies
-/node_modules
+/node_modules/
 
-# Releases
-/releases
+# Docker
+/.dockerignore
+/Dockerfile
+/docker-compose.yaml
 
 # Secrets
-.env
+/.env
