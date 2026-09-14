@@ -2,7 +2,7 @@ export const metadata = {
   metadataBase: new URL('https://fjrodafo-portfolio.vercel.app/'),
   applicationName: "FJrodafo's Portfolio",
   title: {
-    default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+    default: 'FJrodafo | Portfolio',
     template: '%s | Portfolio',
   },
   description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
@@ -46,7 +46,7 @@ export const metadata = {
     siteName: "FJrodafo's Portfolio",
     url: 'https://fjrodafo-portfolio.vercel.app/',
     title: {
-      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      default: 'FJrodafo | Portfolio',
       template: '%s | Portfolio',
     },
     description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
@@ -63,7 +63,7 @@ export const metadata = {
     card: 'summary',
     creator: '@fjrodafo',
     title: {
-      default: 'FJrodafo (Francisco José Rodríguez Afonso)',
+      default: 'FJrodafo | Portfolio',
       template: '%s | Portfolio',
     },
     description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
