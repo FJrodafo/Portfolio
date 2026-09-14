@@ -2,14 +2,14 @@
   "name": "@fjrodafo/portfolio",
   "version": "1.0.0",
   "description": "My professional minimalist portfolio!",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "tarball": "npm pack --dry-run"
+    "tarball": "npm pack --dry-run",
+    "publish:npm": "npm publish --access=public --registry=https://registry.npmjs.org/",
+    "publish:github": "npm publish --registry=https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -41,11 +41,6 @@
     "vercel",
     "home",
     "about",
-    "skills",
-    "services",
-    "qualification",
-    "projects",
-    "testimonials",
     "contact",
     "translation",
     "english",
