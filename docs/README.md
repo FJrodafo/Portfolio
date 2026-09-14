@@ -14,16 +14,15 @@
 ## Index
 
 1. [Introduction](#introduction)
-2. [Clone the repository](#clone-the-repository)
-3. [Set up the project](#set-up-the-project)
-4. [Install dependencies](#install-dependencies)
-5. [Final steps](#final-steps)
-6. [Using Docker](#using-docker)
-    1. [Run with Docker Compose (Recommended)](#run-with-docker-compose-recommended)
-    2. [Build Docker image manually](#build-docker-image-manually)
-7. [Learn More](#learn-more)
-8. [Deploy on Vercel](#deploy-on-vercel)
-9. [Credits](#credits)
+2. [Project structure](#project-structure)
+3. [Clone the repository](#clone-the-repository)
+4. [Set up the project](#set-up-the-project)
+5. [Install dependencies](#install-dependencies)
+6. [Final steps](#final-steps)
+7. [Using Docker](#using-docker)
+8. [Learn More](#learn-more)
+9. [Deploy on Vercel](#deploy-on-vercel)
+10. [Credits](#credits)
 
 ## Introduction
 
@@ -31,8 +30,12 @@ My professional minimalist portfolio website made with [Next.js](https://nextjs.
 
 This project has been developed on a [Linux](https://github.com/torvalds/linux) system. To learn more about the system, visit the [Dotfiles](https://github.com/FJrodafo/Dotfiles) repository.
 
+## Project structure
+
 ```
 /
+├── docs/
+|   └── *.md
 ├── public/
 │   ├── fonts/
 │   │   └── *.woff2
@@ -83,11 +86,13 @@ Open a terminal in the directory where you store your repositories and clone it 
 ```shell
 # HTTPS
 git clone https://github.com/FJrodafo/Portfolio.git
+cd Portfolio/
 ```
 
 ```shell
 # SSH
 git clone git@github.com:FJrodafo/Portfolio.git
+cd Portfolio/
 ```
 
 ## Set up the project
