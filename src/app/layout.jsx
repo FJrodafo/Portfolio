@@ -5,7 +5,7 @@ export const metadata = {
     default: 'FJrodafo | Portfolio',
     template: '%s | Portfolio',
   },
-  description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
+  description: 'Full-Stack web application developer, musician, trumpeter and professor from the Canary Islands.',
   creator: 'Francisco José Rodríguez Afonso',
   publisher: 'Francisco José Rodríguez Afonso',
   authors: [
@@ -21,7 +21,7 @@ export const metadata = {
     'developer',
     'musician',
     'trumpeter',
-    'pianist',
+    'professor',
     'canary',
     'islands',
     'vercel',
@@ -49,7 +49,7 @@ export const metadata = {
       default: 'FJrodafo | Portfolio',
       template: '%s | Portfolio',
     },
-    description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
+    description: 'Full-Stack web application developer, musician, trumpeter and professor from the Canary Islands.',
     images: [
       {
         url: 'https://avatars.githubusercontent.com/u/126250262',
@@ -66,7 +66,7 @@ export const metadata = {
       default: 'FJrodafo | Portfolio',
       template: '%s | Portfolio',
     },
-    description: 'Full-Stack web application developer, musician, trumpeter and pianist from the Canary Islands.',
+    description: 'Full-Stack web application developer, musician, trumpeter and professor from the Canary Islands.',
     images: ['https://avatars.githubusercontent.com/u/126250262'],
   },
   icons: {
